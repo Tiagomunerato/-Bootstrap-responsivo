@@ -1,0 +1,62 @@
+﻿@media only screen and (max-width: 600px) {
+   body{
+       background:#00ffff;
+   }
+}
+.mobile { /*600px */
+    background:#ff6a00;
+    color:#808080;
+    position: absolute; /*referencia do canto*/
+    width:75%;
+    height:auto;
+    font-size:12pt;
+    font-family:'Times New Roman';
+    top:50%; /*centralizar*/
+    left:50%; /*centralizar*/
+    transform:translate(-50%,-50%); /*centraliza objeto*/
+    text-align:center;
+    padding:40px;
+}
+
+     
+body{
+    background:#ffd800;
+}
+@media only screen and (min-width: 601px) and (max-width:800px) {
+
+    .tablet {
+        background: #ffffff;
+        color: #4cff00;
+        position: absolute;
+        width: 65%;
+        height: auto;
+        font-size: 18pt;
+        font-family: 'Adobe Arabic';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+}
+body{
+    background:#ff6a00;
+}
+@media only screen and (min-width:800px) {
+
+    .desktop {
+        background: #ffffff;
+        color: #0026ff;
+        position: absolute;
+        width: 60%;
+        height: auto;
+        font-size: 20pt;
+        font-family: ' Verdana';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        
+        
+    }
+}
+
